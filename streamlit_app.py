@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=15, format='%(message)s')
 
 env = clips.Environment()
-router = clips.Router()
+router = clips.LoggingRouter()
 env.add_router(router)
 
 #input
